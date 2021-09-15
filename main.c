@@ -4,10 +4,14 @@
 
 
 int main(int argc, char *argv[]) {
-	int opcao;
-	do{
-		
-		
-	}while(opcao!=0);
+	//exemplo_switch();
+	//exemplo_if();
+	//exemplo_if_else();
+	//entrada_saida_variavel();
+	//entrada_saida_constante();
+	 //exemplo_string();
+	// exemplo_inicial();
+	//operadores();
+
 	return 0;
 }

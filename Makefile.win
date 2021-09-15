@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main.o calculadora.o
-LINKOBJ  = main.o calculadora.o
+OBJ      = main.o 5_if.o 7_switch_case.o 6_if_else.o 1_e_s_variavel.o 2_e_s_constante.o 3_string.o 0_hello_world.o 4_operadores.o
+LINKOBJ  = main.o 5_if.o 7_switch_case.o 6_if_else.o 1_e_s_variavel.o 2_e_s_constante.o 3_string.o 0_hello_world.o 4_operadores.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -27,5 +27,26 @@ $(BIN): $(OBJ)
 main.o: main.c
 	$(CC) -c main.c -o main.o $(CFLAGS)
 
-calculadora.o: calculadora.c
-	$(CC) -c calculadora.c -o calculadora.o $(CFLAGS)
+5_if.o: 5_if.c
+	$(CC) -c 5_if.c -o 5_if.o $(CFLAGS)
+
+7_switch_case.o: 7_switch_case.c
+	$(CC) -c 7_switch_case.c -o 7_switch_case.o $(CFLAGS)
+
+6_if_else.o: 6_if_else.c
+	$(CC) -c 6_if_else.c -o 6_if_else.o $(CFLAGS)
+
+1_e_s_variavel.o: 1_e_s_variavel.c
+	$(CC) -c 1_e_s_variavel.c -o 1_e_s_variavel.o $(CFLAGS)
+
+2_e_s_constante.o: 2_e_s_constante.c
+	$(CC) -c 2_e_s_constante.c -o 2_e_s_constante.o $(CFLAGS)
+
+3_string.o: 3_string.c
+	$(CC) -c 3_string.c -o 3_string.o $(CFLAGS)
+
+0_hello_world.o: 0_hello_world.c
+	$(CC) -c 0_hello_world.c -o 0_hello_world.o $(CFLAGS)
+
+4_operadores.o: 4_operadores.c
+	$(CC) -c 4_operadores.c -o 4_operadores.o $(CFLAGS)
