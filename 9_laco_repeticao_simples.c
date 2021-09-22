@@ -22,3 +22,21 @@ laco_inicial_do_while(){
 	}while(contador<10000);
 	
 }
+
+laco_encadeado(){
+	int j, i;
+	 while (j<=3){
+		j++;
+	 	for(i=1;i<=200;i++){
+	 		printf("Setor %d Cadeira %d\n",j,i);
+	 		}
+		 }
+	 }
+	
+	
+
+
+
+
+
+

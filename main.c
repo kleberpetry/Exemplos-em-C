@@ -16,7 +16,11 @@ int main(int argc, char *argv[]) {
 	//exemplo_if_encadeado();
 	//laco_inicial_while();
 	//laco_inicial_for();
-	laco_inicial_do_while();
+	//laco_inicial_do_while();
+	//laco_encadeado();
+	//vetor_numerico();
+	//vetor_caractere();
+	vetor_for();
 
 	return 0;
 }

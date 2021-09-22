@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main.o 0_hello_world.o 1_e_s_variavel.o 2_e_s_constante.o 3_string.o 4_operadores.o 5_if.o 6_if_else.o 7_if_encadeado.o 8_switch_case.o 9_laco_repeticao_simples.o
-LINKOBJ  = main.o 0_hello_world.o 1_e_s_variavel.o 2_e_s_constante.o 3_string.o 4_operadores.o 5_if.o 6_if_else.o 7_if_encadeado.o 8_switch_case.o 9_laco_repeticao_simples.o
+OBJ      = main.o 0_hello_world.o 1_e_s_variavel.o 2_e_s_constante.o 3_string.o 4_operadores.o 5_if.o 6_if_else.o 7_if_encadeado.o 8_switch_case.o 9_laco_repeticao_simples.o 10_vetores.o
+LINKOBJ  = main.o 0_hello_world.o 1_e_s_variavel.o 2_e_s_constante.o 3_string.o 4_operadores.o 5_if.o 6_if_else.o 7_if_encadeado.o 8_switch_case.o 9_laco_repeticao_simples.o 10_vetores.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -56,3 +56,6 @@ main.o: main.c
 
 9_laco_repeticao_simples.o: 9_laco_repeticao_simples.c
 	$(CC) -c 9_laco_repeticao_simples.c -o 9_laco_repeticao_simples.o $(CFLAGS)
+
+10_vetores.o: 10_vetores.c
+	$(CC) -c 10_vetores.c -o 10_vetores.o $(CFLAGS)
