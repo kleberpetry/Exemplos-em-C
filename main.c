@@ -11,9 +11,12 @@ int main(int argc, char *argv[]) {
 	//entrada_saida_variavel();
 	//entrada_saida_constante();
 	 //exemplo_string();
-	 exemplo_inicial();
+	// exemplo_inicial();
 	//operadores();
 	//exemplo_if_encadeado();
+	//laco_inicial_while();
+	//laco_inicial_for();
+	laco_inicial_do_while();
 
 	return 0;
 }
